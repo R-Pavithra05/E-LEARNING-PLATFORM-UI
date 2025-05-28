@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Progress</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .progress-tracking {
+      max-width: 350px;
+      margin: 100px auto;
+      text-align: center;
+    }
+
+    .progress-bar {
+      background-color: #e0e0e0;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 20px;
+      margin: 20px 0;
+    }
+
+    .progress {
+      background-color: #2ac7a1;
+      height: 100%;
+      transition: width 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="progress-tracking">
+    <h2>Your Progress</h2>
+    <img src="https://i.ibb.co/7NRVv6By/Screenshot-20250528-065857-Chrome.jpg" alt="Progress Chart" class="progress-chart">
+    <div class="progress-bar">
+      <div class="progress" id="progress-bar-fill" style="width: 0%;"></div>
+    </div>
+    <p id="progress-text">0% completed</p>
+  </section>
+
+  <script>
+    // Simulate progress: You can replace this with real data from localStorage or database
+    const completedCourses = 2; // out of 3
+    const totalCourses = 3;
+    const progressPercent = Math.round((completedCourses / totalCourses) * 100);
+
+    document.getElementById('progress-bar-fill').style.width = progressPercent + '%';
+    document.getElementById('progress-text').textContent = `${progressPercent}% completed`;
+  </script>
+
+</body>
+</html>
