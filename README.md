@@ -32,3 +32,8 @@ In conclusion, this e-learning platform front-end showcases how HTML, CSS, and B
 
 OUTPUT: 
 
+![Image](https://github.com/user-attachments/assets/ce6658d7-f9c8-4e43-9403-420a5b51c521)
+
+![Image](https://github.com/user-attachments/assets/6546c437-a0ad-4fca-a39b-f5cf40535ae2)
+
+![Image](https://github.com/user-attachments/assets/85a43962-810b-4072-834e-c91be027674c)
